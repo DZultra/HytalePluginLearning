@@ -1,4 +1,4 @@
-# Hytale Plugin Template
+# Hytale Plugin Learning
 
-A template for Hytale java plugins. Created by Up, and slightly modified by Kaupenjoe and then modified to fit DZultra's desires!
+HytalePlugin for testing and learning everything about Hytale Modding!
 
