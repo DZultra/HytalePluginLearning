@@ -39,6 +39,8 @@ public class CraftingEvent extends EntityEventSystem<EntityStore, CraftRecipeEve
         player.sendMessage(Message.raw("You just crafted a " + itemId + "!"));
     }
 
+    // A Query is a filter. It tells the System: "Only process if you match these criteria"
+    // Here only for players
     @Override
     public @Nullable Query<EntityStore> getQuery() {
         return PlayerRef.getComponentType();
